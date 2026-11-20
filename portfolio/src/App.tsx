@@ -806,7 +806,7 @@ function App() {
           <div className="grid-bg" />
           <h2 className="rv arabic-text" dir={language === "ar" ? "rtl" : "ltr"} lang={language}>{t.contactTitle}</h2>
           <p className="rv arabic-text" dir={language === "ar" ? "rtl" : "ltr"} lang={language}>{t.contactText}</p>
-          <a className="cta mag" data-cur={language === "ar" ? "ابدأ" : "Go"} href="mailto:hello@example.com"><span><LocalText language={language}>{t.contactCta}</LocalText></span></a>
+          <a className="cta mag" data-cur={language === "ar" ? "ابدأ" : "Go"} href="https://wa.me/201282782648" target="_blank" rel="noopener noreferrer"><span><LocalText language={language}>{t.contactCta}</LocalText></span></a>
           <div className="soc">
             {socialLinks.map((link) => <a href={link.url} target="_blank" rel="noopener noreferrer" key={link.name}>{link.name} ↗</a>)}
           </div>
