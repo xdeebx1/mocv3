@@ -49,7 +49,7 @@ The page uses React/Vite project plumbing, while the reference's original standa
 
 In the script near the bottom of `index.html`, edit `PROFILE`, `PROJECTS`, `PROJECT_DETAILS`, `PRACTICES`, `SKILLS`, `CERTS`, `TIMELINE`, `I18N`, and `XT`. Project screenshots and certificate scans are stored under `public/assets/` and referenced by the `img` values in `PROJECTS` and `CERTS`.
 
-The profile photo is `public/assets/mohamed-omar.jpeg`; `public/assets/og.jpg` is the social preview image. `cv.pdf` is currently missing, so resume links need that file. To add a language, extend the `I18N` and `XT` dictionaries and provide matching language values for the project, project-detail, practices, and timeline data.
+The profile photo is `public/assets/mohamed-omar.jpeg`; `public/assets/og-card.png` is the social preview image and `public/favicon.svg` is the MO site icon. `cv.pdf` is currently missing, so resume links need that file. To add a language, extend the `I18N` and `XT` dictionaries and provide matching language values for the project, project-detail, practices, and timeline data.
 
 ## Reference and port notes
 
